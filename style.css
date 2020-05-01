@@ -1,19 +1,22 @@
+/* Initialises the page with no margin or padding */
 *{
     margin: 0;
     padding: 0;
 }
 body {
-    /*color: #fff;*/
+    /* Centralises everuthing, and adds a shadow behind all the text */
     text-align: center;
     text-shadow: 0 1px 0px rgba(0,0,0,.5);
 }
 
 header {
+    /* Gives a font to the header, with an opacity, and pushes it up using padding */
     font-family: 'Sulphur Point', sans-serif;
     color: black;
     opacity: 0.3;
     padding-bottom: 15px;
 }
+/* Styles the image of me to be a circle */
 .circles img {
     width: 170px;
     height: 170px;
@@ -28,7 +31,7 @@ header {
     margin-bottom: 2rem;
     transition: opacity .25s ease-in-out;
 }
-
+/* Styles the button */
 .btn-get-resume .btn {
     font-size: 1.3rem;
     opacity: .75;
@@ -36,11 +39,11 @@ header {
     color: rgb(33, 33, 139);
     font-family: sans-serif;
 }
-
+/* If user hovers over button the opacity will go down */
 .btn-get-resume:hover {
     opacity: 0.5;
 }
-
+/* Gives the button a border style and positions it in relative to everthing else */
 .btn {
     display: inline-block;
     padding: 8px 18px;
@@ -57,12 +60,15 @@ header {
     border-radius: 4px;
     text-decoration: none;
 }
+
+/* Specifically styles the h3 elements to have a specific size */
 h3 {
     font-size: 1.3rem;
     text-decoration: none;
     font-family: 'Sulphur Point', sans-serif;
     color: black;
 }
+
 h3:hover {
     text-decoration: none;
 }
@@ -71,10 +77,12 @@ h4 {
     color: black;
     
 }
+/* Styles the links to change cover when hovered over */
 i {
 padding: 15px;
 font-family: sans-serif;
 color: rgb(33, 33, 139);
+font-size: 50px;
 
 }
 .links li a .i {

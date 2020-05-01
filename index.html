@@ -14,16 +14,21 @@
     <title>Calum J Barratt Profile</title>
 </head>
 <body>
+  <!-- Creates a container for the whole body -->
     <div class="container-fluid">
+      <!-- Creates the image class of myself at top of screen -->
         <div class="circles"><img src="images/Me.jpg" id="profilePic" class="profilePic"></div>
         <header>
+          <!-- This is the main part of CV, where i describe myself -->
           <h1>Hey, I'm Calum Barratt.</h1> 
           <h2>Currently studying Web Design at University of Northampton</h2>
           <p><h4> Always looking for opportunities!
           <p>Junior Web Developer </p> </h4>
         </header> 
+        <!-- Creating a list of icons, imported from Fontawesome, to the cv -->
         <ul class="links">
             <li>
+              <!-- Each link will transfer the user to my profile pages -->
                 <a href="https://github.com/Calbar01"><i class="fab fa-github fa-3x"></i></a>
             </li>
           <li>
@@ -32,14 +37,17 @@
             <li>
               <a href="https://www.linkedin.com/in/calum-barratt-8b06a5184"><i class="fab fa-linkedin-in fa-3x"></i></a>  
             </li>
+            <li>
+              <a href="https://stackoverflow.com/users/13447437/calum-j-barratt?tab=profile"><i class="fab fa-stack-overflow"></i></a>
+            </li>
         </ul>
         <p class="btn-get-resume">
-        
+          <!-- This will take user to my portfolio website, this also calls to a function being used in JavaScript -->
            <a href="https://calbar01.github.io/Assignment-2/" class="btn btn-lg btn-default" onmouseover="changePic()" onmouseout="normalPic()">My Portfolio!</a>
         </p>
    </div>
     
-
+   <!-- Links the JavaScript script to the page -->
     <script src="scripts.js"></script>
 </body>
 </html>
